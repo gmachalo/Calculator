@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
 namespace operations.Tests
 {
@@ -36,6 +37,12 @@ namespace operations.Tests
         public void QuotIntArrayTest()
         {
             Assert.AreEqual(0.005, Division.Quot(arrayB));
+        }
+
+        [TestMethod()]
+        public void DivByZeroTest()
+        {
+            Assert.ThrowsException<DivideByZeroException>(() => Division.Quot(a, c));
         }
     }
 }

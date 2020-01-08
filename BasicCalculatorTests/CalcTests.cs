@@ -29,7 +29,6 @@ namespace BasicCalculator.Tests
 
             Assert.AreEqual(2, c);
             Assert.AreEqual(2, calculator.result);
-
         }
     }
 }
