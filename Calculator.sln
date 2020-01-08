@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operations", "operations\operations.csproj", "{F534AC7A-8A1A-4D71-9662-FE73A7C50862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operations", "operations\operations.csproj", "{F534AC7A-8A1A-4D71-9662-FE73A7C50862}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operationsTests", "operationsTests\operationsTests.csproj", "{2F55F922-57F7-463E-B117-852807FA5793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "operationsTests", "operationsTests\operationsTests.csproj", "{2F55F922-57F7-463E-B117-852807FA5793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculator", "BasicCalculator\BasicCalculator.csproj", "{A25EF808-E5C8-4319-A7E7-F1F1C28096F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculatorTests", "BasicCalculatorTests\BasicCalculatorTests.csproj", "{C8581BD5-27D4-4968-A6B0-25338ACE56A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{2F55F922-57F7-463E-B117-852807FA5793}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F55F922-57F7-463E-B117-852807FA5793}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F55F922-57F7-463E-B117-852807FA5793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25EF808-E5C8-4319-A7E7-F1F1C28096F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25EF808-E5C8-4319-A7E7-F1F1C28096F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25EF808-E5C8-4319-A7E7-F1F1C28096F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25EF808-E5C8-4319-A7E7-F1F1C28096F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8581BD5-27D4-4968-A6B0-25338ACE56A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8581BD5-27D4-4968-A6B0-25338ACE56A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8581BD5-27D4-4968-A6B0-25338ACE56A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8581BD5-27D4-4968-A6B0-25338ACE56A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
