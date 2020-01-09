@@ -25,7 +25,7 @@ namespace BasicCalculator.Tests
         {
             Calc calculator = new Calc();
 
-            int c = calculator.Div(2, 1);
+            int c = calculator.Divide(2, 1);
 
             Assert.AreEqual(2, c);
             Assert.AreEqual(2, calculator.result);
