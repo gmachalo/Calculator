@@ -10,13 +10,7 @@ using CubeInterface;
 
 namespace BasicCalculator
 {
-    public interface ICalcultorBasic
-    {
-        public dynamic Add(dynamic a, dynamic b);
-        public dynamic Divide(dynamic a, dynamic b);
-
-    }
-
+    
     public class Calc : IAdd, IDivide, ICubeInterface, IMultiply, IRoot, ISquareInterface, ISubtract
     {
         Adding add = new Adding();
@@ -31,6 +25,12 @@ namespace BasicCalculator
         public dynamic Add(dynamic a, dynamic b)
         {
             result = add.Add(a, b);
+            return result;
+        }
+
+        public dynamic Add(dynamic values)
+        {
+            result = add.Add(values);
             return result;
         }
 

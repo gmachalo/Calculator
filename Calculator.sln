@@ -17,13 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divide", "Divide\Divide.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subtract", "Subtract\Subtract.csproj", "{55D1E867-E7C3-4903-85CE-615039AFECA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiply", "Multiply\Multiply.csproj", "{404F1ABB-A21A-4D71-9000-356252B1E0E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiply", "Multiply\Multiply.csproj", "{404F1ABB-A21A-4D71-9000-356252B1E0E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareInterface", "SquareInterface\SquareInterface.csproj", "{51CB0403-2A9C-47FA-9C4E-D2F0FDE12650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareInterface", "SquareInterface\SquareInterface.csproj", "{51CB0403-2A9C-47FA-9C4E-D2F0FDE12650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeInterface", "CubeInterface\CubeInterface.csproj", "{D5A49F64-87DB-4E30-87B2-9AE959E48699}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CubeInterface", "CubeInterface\CubeInterface.csproj", "{D5A49F64-87DB-4E30-87B2-9AE959E48699}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Root", "Root\Root.csproj", "{3B664F76-5E70-47B1-BE9C-32CF91E0D083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Root", "Root\Root.csproj", "{3B664F76-5E70-47B1-BE9C-32CF91E0D083}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsCalc", "StatisticsCalc\StatisticsCalc.csproj", "{5FA8FD09-F2C0-427F-86CF-2B7A100A0469}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsCalcTests", "StatisticsCalcTests\StatisticsCalcTests.csproj", "{290C1FE7-5974-4519-B351-782C631D2E62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatOperations", "StatOperations\StatOperations.csproj", "{55AAE2D0-51DB-4E10-BAB8-B254CEE012AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{046272F6-73BC-44AA-BB85-22DE30BBAC85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{3B664F76-5E70-47B1-BE9C-32CF91E0D083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B664F76-5E70-47B1-BE9C-32CF91E0D083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B664F76-5E70-47B1-BE9C-32CF91E0D083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA8FD09-F2C0-427F-86CF-2B7A100A0469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA8FD09-F2C0-427F-86CF-2B7A100A0469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA8FD09-F2C0-427F-86CF-2B7A100A0469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA8FD09-F2C0-427F-86CF-2B7A100A0469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290C1FE7-5974-4519-B351-782C631D2E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290C1FE7-5974-4519-B351-782C631D2E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290C1FE7-5974-4519-B351-782C631D2E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290C1FE7-5974-4519-B351-782C631D2E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AAE2D0-51DB-4E10-BAB8-B254CEE012AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AAE2D0-51DB-4E10-BAB8-B254CEE012AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AAE2D0-51DB-4E10-BAB8-B254CEE012AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AAE2D0-51DB-4E10-BAB8-B254CEE012AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046272F6-73BC-44AA-BB85-22DE30BBAC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046272F6-73BC-44AA-BB85-22DE30BBAC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046272F6-73BC-44AA-BB85-22DE30BBAC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046272F6-73BC-44AA-BB85-22DE30BBAC85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
