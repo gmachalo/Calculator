@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using operations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace operations.Tests
 {
@@ -16,7 +12,7 @@ namespace operations.Tests
         private readonly double d = 9.03;
 
         private readonly double[] arrayA = { 2.5, 1.5, 6, 3 };
-        private readonly double[] arrayB = { 2, 4, 8, 3, 9};
+        private readonly double[] arrayB = { 2, 4, 8, 3, 9 };
 
         [TestMethod()]
         public void ProductTest()

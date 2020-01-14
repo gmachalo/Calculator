@@ -1,9 +1,6 @@
-﻿using System;
-using operations;
-
-namespace StatOperations
+﻿namespace StatOperations
 {
-    public class StatOperations
+    public class StatsMean
     {
         public static dynamic Mean(dynamic values)
         {
@@ -12,5 +9,7 @@ namespace StatOperations
             var result = operations.Division.Quot(sum, valueCount);
             return result;
         }
+
+
     }
 }

@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace operations
+﻿namespace operations
 {
     public class Addition
     {
-        public static int Sum(int a, int b) 
+        public static int Sum(int a, int b)
         {
             return a + b;
         }
@@ -14,11 +12,11 @@ namespace operations
             return a + b;
         }
 
-        public static double Sum(double[] arrayA) 
+        public static double Sum(double[] arrayA)
         {
             double c = 0.0;
 
-            foreach(double a in arrayA)
+            foreach (double a in arrayA)
             {
                 c = Sum(a, c);
             }

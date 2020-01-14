@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BasicCalculator;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BasicCalculator.Tests
 {
@@ -18,8 +14,8 @@ namespace BasicCalculator.Tests
 
             Assert.AreEqual(3, c);
             Assert.AreEqual(3, calculator.result);
-
         }
+
         [TestMethod()]
         public void DivTest()
         {

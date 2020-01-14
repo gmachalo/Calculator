@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StatisticsCalc;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace StatisticsCalc.Tests
 {
@@ -12,7 +8,7 @@ namespace StatisticsCalc.Tests
         [TestMethod()]
         public void MeanTest()
         {
-            StatisticsCalc statsCal = new StatisticsCalc();
+            MeanCalc statsCal = new MeanCalc();
             double[] values = { 1, 2 };
             var mean = statsCal.Mean(values);
             Assert.AreEqual(1.5, mean);

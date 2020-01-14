@@ -1,5 +1,4 @@
-﻿using System;
-using operations;
+﻿using operations;
 
 namespace Subtract
 {
@@ -7,10 +6,12 @@ namespace Subtract
     {
         public dynamic Subtract(dynamic a, dynamic b);
     }
+
     public class Subtracting : ISubtract
 
     {
         public dynamic result;
+
         public dynamic Subtract(dynamic a, dynamic b)
         {
             result = Subtraction.Difference(a, b);

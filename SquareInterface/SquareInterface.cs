@@ -1,5 +1,4 @@
-﻿using System;
-using operations;
+﻿using operations;
 
 namespace SquareInterface
 {
@@ -7,10 +6,12 @@ namespace SquareInterface
     {
         public dynamic SquareInterface(dynamic a);
     }
+
     public class Squaring : ISquareInterface
 
     {
         public dynamic result;
+
         public dynamic SquareInterface(dynamic a)
         {
             result = Square.Squared(a);

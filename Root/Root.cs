@@ -1,5 +1,4 @@
-﻿using System;
-using operations;
+﻿using operations;
 
 namespace Root
 {
@@ -7,10 +6,12 @@ namespace Root
     {
         public dynamic Root(dynamic a);
     }
+
     public class Rooting : IRoot
 
     {
         public dynamic result;
+
         public dynamic Root(dynamic a)
         {
             result = SquareRoot.Root(a);

@@ -1,25 +1,22 @@
-﻿using System;
-using operations;
-using Add;
+﻿using Add;
+using CubeInterface;
 using Divide;
 using Multiply;
-using Subtract;
 using Root;
 using SquareInterface;
-using CubeInterface;
+using Subtract;
 
 namespace BasicCalculator
 {
-    
     public class Calc : IAdd, IDivide, ICubeInterface, IMultiply, IRoot, ISquareInterface, ISubtract
     {
-        Adding add = new Adding();
-        Div divide = new Div();
-        Subtracting subtract = new Subtracting();
-        Multiplying multiply = new Multiplying();
-        Squaring square = new Squaring();
-        Cubing cube = new Cubing();
-        Rooting root = new Rooting();
+        private Adding add = new Adding();
+        private Div divide = new Div();
+        private Subtracting subtract = new Subtracting();
+        private Multiplying multiply = new Multiplying();
+        private Squaring square = new Squaring();
+        private Cubing cube = new Cubing();
+        private Rooting root = new Rooting();
         public dynamic result;
 
         public dynamic Add(dynamic a, dynamic b)
@@ -69,6 +66,5 @@ namespace BasicCalculator
             result = root.Root(a);
             return result;
         }
-
     }
 }

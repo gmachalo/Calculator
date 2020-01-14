@@ -1,5 +1,4 @@
-﻿using System;
-using operations;
+﻿using operations;
 
 namespace CubeInterface
 {
@@ -7,10 +6,12 @@ namespace CubeInterface
     {
         public dynamic CubeInterface(dynamic a);
     }
+
     public class Cubing : ICubeInterface
 
     {
         public dynamic result;
+
         public dynamic CubeInterface(dynamic a)
         {
             result = Cube.Cubed(a);
